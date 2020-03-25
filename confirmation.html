@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles/main.css" type="text/css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e939cd9756.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        color: black !important;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div
+        uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky"
+      >
+        <nav class="uk-navbar-container" uk-navbar>
+          <div class="uk-navbar-left">
+            <a href="index.html"
+              ><img class="logo" src="logo.svg" alt="Logo"
+            /></a>
+            <ul class="uk-navbar-nav">
+              <li class="uk-active"><a href="./index.html">Shop</a></li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <table class="uk-table uk-table-divider">
+      <caption>
+        Your Order
+      </caption>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th></th>
+          <th>Unit Price</th>
+          <th>Quantity</th>
+          <th>Total Price</th>
+        </tr>
+      </thead>
+      <tbody id="tBody"></tbody>
+      <tfoot id="tFoot"></tfoot>
+    </table>
+
+    <footer>
+      <p>JSON-fil: <a href="products.json">products.json</a></p>
+
+      <a href="https://www.vecteezy.com/free-vector/mountain"
+        >Mountain Vectors by Vecteezy</a
+      >
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+    <script src="confirmation.js"></script>
+  </body>
+</html>

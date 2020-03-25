@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Raw Rose Quartz",
+      "unitPrice": 119,
+      "totalPrice": 119,
+      "qty": 1,
+      "info": "The energy emitted from this Raw Rose Quartz is pure, unpolished, unfiltered LOVE.",
+      "img": "https://source.unsplash.com/PrQqQVPzmlw"
+    },
+    {
+      "id": 2,
+      "name": "Amethyst Cluster",
+      "unitPrice": 110,
+      "totalPrice": 110,
+      "qty": 1,
+      "info": "As a natural stress reliever, an Amethyst Cluster is the perfect stone to keep in the bedroom.",
+      "img": "https://source.unsplash.com/NyapZuexFaQ"
+    },
+    {
+      "id": 3,
+      "name": "Blue Sky Fluorite",
+      "unitPrice": 400,
+      "totalPrice": 400,
+      "qty": 1,
+      "info": "With its beautiful powder-blue colour and distinctive cubic crystal form this Blue Sky Fluorite Specimen is as powerful as it is attractive.",
+      "img": "https://source.unsplash.com/1PlVbeOCd78"
+    },
+    {
+      "id": 4,
+      "name": "Kunzite Crystal",
+      "unitPrice": 69,
+      "totalPrice": 69,
+      "qty": 1,
+      "info": "A lustrous Kunzite healing crystal from Afghanistan. This crystal is also known as pink spodumene. ",
+      "img": "https://source.unsplash.com/4ioZ4zgslhg"
+    },
+    {
+      "id": 5,
+      "name": "Pollucite",
+      "unitPrice": 75,
+      "totalPrice": 75,
+      "qty": 1,
+      "info": "These lustrous crystals of Pollucite are found in Pakistan. Pollucite is delightful, energising and uplifting.",
+      "img": "https://source.unsplash.com/k65_6C4hu2E"
+    },
+    {
+      "id": 6,
+      "name": "Vanadinite Crystal",
+      "unitPrice": 229,
+      "totalPrice": 229,
+      "qty": 1,
+      "info": "Sphalerite gets its name from the Greek word for deceitful and is said to help us recognise those who are.",
+      "img": "https://source.unsplash.com/JKRXPwUoFt0"
+    },
+    {
+      "id": 7,
+      "name": "Sphalerite Healing Crystal",
+      "unitPrice": 400,
+      "totalPrice": 400,
+      "qty": 1,
+      "info": "Sphalerite gets its name from the Greek word for deceitful and is said to help us recognise those who are.",
+      "img": "https://source.unsplash.com/oeGg2Z_qm1o"
+    },
+    {
+      "id": 8,
+      "name": "Crocoite Mineral Specimen ",
+      "unitPrice": 300,
+      "totalPrice": 300,
+      "qty": 1,
+      "info": "An attractive specimen of Crocoite from the famous Red Lead Mine in Dundas, Tasmania.",
+      "img": "https://source.unsplash.com/OFoeCueYHyA "
+    },
+    {
+      "id": 9,
+      "name": "Kunzite Healing Crystal",
+      "unitPrice": 155,
+      "totalPrice": 155,
+      "qty": 1,
+      "info": "A lustrous Kunzite healing crystal from Afghanistan. This crystal is also known as pink spodumene. It is a powerful heart stone, acting on both a physical and spiritual level.",
+      "img": "https://source.unsplash.com/VKLJ-BJlszE"
+    },
+    {
+      "id": 10,
+      "name": "Clear Quartz Cluster",
+      "unitPrice": 250,
+      "totalPrice": 250,
+      "qty": 1,
+      "info": "These Clear Quartz Clusters radiate immense amounts of energy due to their many points, sending energy out in all different directions.",
+      "img": "https://source.unsplash.com/SSoCY-Xi3iY"
+    }
+  ]
+}

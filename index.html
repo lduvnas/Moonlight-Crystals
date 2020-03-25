@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Moonlight Crystals</title>
+
+  <script src="https://kit.fontawesome.com/e939cd9756.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles/main.css" type="text/css" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+          <a href="index.html"><img class="logo" src="logo.svg" alt="Logo" /></a>
+          <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="./index.html">Shop</a></li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li>
+              <a href="" uk-toggle="target: #offcanvas-flip" uk-icon="icon: cart; ratio: 1.5"></a>
+              <span class="cart-counter"></span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="banner"
+      style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://source.unsplash.com/MhLjFJi3fRY);">
+      <div class="container">
+        <h1>Moonlight Crystals</h1>
+        <p>
+          We offer a wide choice of healing crystals which are ethically
+          sourced from mining families world wide.
+        </p>
+        <button class="uk-button uk-button-default addBtn">Read more</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="uk-container uk-container-large">
+    <div class="uk-child-width-1-4 uk-width-1-1 uk-grid-match" uk-grid id="product_container"></div>
+  </div>
+
+  <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+      <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+      <h3>Shopping Cart</h3>
+
+      <div id="shoppingCart"></div>
+      <span id="totalAmount"></span>
+
+      <button id="emptyCartBtn" class="uk-button uk-button-default">
+        Empty Cart
+      </button>
+      <a class="uk-button uk-button-default" href="confirmation.html">Order</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>JSON-fil: <a href="products.json">products.json</a></p>
+
+    <a href="https://www.vecteezy.com/free-vector/mountain">Mountain Vectors by Vecteezy</a>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
